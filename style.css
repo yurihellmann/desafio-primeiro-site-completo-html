@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(231, 142, 62);
+    min-height: 150px;
+}
+.header img {
+    padding: 5px;
+    height: 200px;
+    width: 1000px;
+}
+.content {
+    background-color: antiquewhite;
+    min-height: 300px;
+    padding: 20px;
+}
+table{
+    border: solid 1px black;
+    text-align: center;
+}
+table thead th {
+    background: black;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: rgb(247, 210, 163);
+}
+
+table tbody tr:hover td {
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
+.footer {
+    background-color: aquamarine;
+    min-height: 150px;
+    text-align: center;
+}
